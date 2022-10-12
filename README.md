@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-Website: https://hulend.github.io/Lab2_Starter/
+# Lab 3
+Website: https://hulend.github.io/fa22-cse110-lab3/
