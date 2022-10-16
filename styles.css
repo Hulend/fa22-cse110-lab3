@@ -1,21 +1,24 @@
 /* Body css application */
 @media only screen and (min-width: 6.25in) {
-    body {
+    * {
         background-color: #F3F6FB;
     }
 }
 
 /* Title */
-h1 {
-    position: static;
-    color: rgb(255, 0, 0);
+body.class {
     text-decoration: underline;
     text-align: center;
+}
+body > h1 {
+    position: static;
+    color: rgb(255, 0, 0);
     padding-bottom: 1rem;
 }
+/* #id used as anchor point for nav */
 
-p {
-    color: hsl(24, 100, 50);
+a[type] {
+    border: 5px solid black;
 }
 
 h2 {
@@ -30,7 +33,7 @@ summary {
     color: yellow;
 }
 
-form {
+form, button:active {
     color: slategray;
 }
 
@@ -47,9 +50,26 @@ ul {
     padding-bottom: .5vh;
 }
 
+ol li {
+    text-decoration: underline dotted;
+}
+
+ol + li {
+    text-decoration: underline solid;
+}
+
+ul ~ li {
+    text-decoration: underline dotted;
+}
+
+body > p {
+    text-align: left;
+}
+
 button:hover {
     color: lightgray;
 }
-button:active {
+
+a:hover {
     color: gray;
 }
