@@ -1,25 +1,55 @@
 /* Body css application */
-body {
-    background-color: #F3F6FB;
-  }
-  /* Title */
-  h1 {
-    color: rgb(255,0,0);
+@media only screen and (min-width: 6.25in) {
+    body {
+        background-color: #F3F6FB;
+    }
+}
+
+/* Title */
+h1 {
+    position: static;
+    color: rgb(255, 0, 0);
     text-decoration: underline;
     text-align: center;
-  }
-  p {
-    color: hsl(24,100,50);
-  }
-  h2 {
+    padding-bottom: 1rem;
+}
+
+p {
+    color: hsl(24, 100, 50);
+}
+
+h2 {
     color: violet;
-  }
-  h3 {
+}
+
+h3 {
     color: blue;
-  }
-  summary {
+}
+
+summary {
     color: yellow;
-  }
-  form {
+}
+
+form {
     color: slategray;
-  }
+}
+
+ol{
+    border: 1cm solid green;
+    border-width: thick;
+    padding: 1em;
+    padding-bottom: 10px; 
+}
+
+ul {
+    border: 2px solid green;
+    border-radius: 30px;
+    padding: .5vh;
+}
+
+button:hover {
+    color: lightgray;
+}
+button:active {
+    color: gray;
+}
