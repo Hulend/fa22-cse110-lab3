@@ -1,0 +1,25 @@
+/* Body css application */
+body {
+    background-color: #F3F6FB;
+  }
+  /* Title */
+  h1 {
+    color: rgb(255,0,0);
+    text-decoration: underline;
+    text-align: center;
+  }
+  p {
+    color: hsl(24,100,50);
+  }
+  h2 {
+    color: violet;
+  }
+  h3 {
+    color: blue;
+  }
+  summary {
+    color: yellow;
+  }
+  form {
+    color: slategray;
+  }
