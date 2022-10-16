@@ -15,10 +15,9 @@ body > h1 {
     color: rgb(255, 0, 0);
     padding-bottom: 1rem;
 }
-/* #id used as anchor point for nav */
 
-a[type] {
-    border: 5px solid black;
+a[for], a[value] {
+    color: black;
 }
 
 h2 {
@@ -50,20 +49,21 @@ ul {
     padding-bottom: .5vh;
 }
 
-ol li {
-    text-decoration: underline dotted;
-}
-
 ol + li {
     text-decoration: underline solid;
 }
 
-ul ~ li {
+ol li {
     text-decoration: underline dotted;
 }
 
-body > p {
-    text-align: left;
+p ~ ul {
+    text-decoration: underline dotted;
+}
+
+#rec > option {
+    text-decoration: underline;
+    color:hsl(24,100,50);
 }
 
 button:hover {
