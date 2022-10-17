@@ -51,7 +51,7 @@ ul {
     padding-bottom: .5vh;
 }
 
-a + p {
+span + p {
     color: orange;
 }
 
