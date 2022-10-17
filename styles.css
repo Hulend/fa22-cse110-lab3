@@ -16,6 +16,8 @@ body > h1 {
     padding-bottom: 1rem;
 }
 
+/* #id used for anchor points in nav */
+
 a[for], a[value] {
     color: orangered;
 }
@@ -25,7 +27,7 @@ h2 {
 }
 
 h3 {
-    color: blue;
+    color: hsl(240,100,50);
 }
 
 summary {
@@ -50,7 +52,7 @@ ul {
 }
 
 div + p {
-    color:hsl(24,100,50);
+    color: orange;
 }
 
 ol li {
@@ -61,7 +63,7 @@ h2 ~ ul {
     text-decoration: underline dotted;
 }
 
-#form > p {
+form > p {
     text-decoration: underline solid;
 }
 
